@@ -1,0 +1,1 @@
+module.exports.main = (req, res) => res.render('about', {title : 'About'});

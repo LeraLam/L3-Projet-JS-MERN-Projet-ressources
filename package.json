@@ -1,0 +1,85 @@
+{
+  "name": "MongoDBReactProject",
+  "version": "1.0.0",
+  "description": "MongoDB in JS with react",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "hotloader": "webpack-dev-server",
+    "start": "node ./bin/www",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab-etu.fil.univ-lille1.fr:barlet_lerat-lambert/projet-mongo.git"
+  },
+  "author": "Denis Barlet & Paul Lerat-Lambert",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^25.2.6",
+    "babel-loader": "^8.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "copy-webpack-plugin": "^5.1.1",
+    "cors": "^2.8.5",
+    "css-loader": "^3.4.2",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "file-loader": "^5.0.2",
+    "http-errors": "~1.6.2",
+    "mongoose": "^5.8.3",
+    "morgan": "~1.9.0",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4",
+    "socket.io": "^2.3.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@material-ui/core": "^4.9.8",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "chart.js": "^2.9.3",
+    "classnames": "^2.2.6",
+    "core-js": "^3.6.4",
+    "font-awesome-webpack": "0.0.5-beta.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.20",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-toastify": "^5.5.0",
+    "reactstrap": "^8.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

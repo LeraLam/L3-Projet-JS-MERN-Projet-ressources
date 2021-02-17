@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p result of request : #[code= request]
+
+  table.resourcelist
+    each resource, index in resources
+      tr.resource(data-id= resource.id)
+        td.resource= resource.name
+        td.price= resource.price

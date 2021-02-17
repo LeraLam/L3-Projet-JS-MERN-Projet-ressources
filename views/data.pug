@@ -1,0 +1,18 @@
+extends customerForm
+
+append headblock
+  script(src="/scripts/data.js")
+
+block customercontrol
+    button#createbutton create
+
+block list
+  h1= title
+  p result of request : #[code= request]
+
+   table.customerlist
+    each customer, index in customers
+      tr.customer(data-id= customer.id)
+        td.name= customer.name
+        td.delete
+           button#deletebutton(value=customer._id)       X

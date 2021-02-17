@@ -1,0 +1,12 @@
+lancer le serveur:
+mkdir data
+mongod --dbpath data
+
+Import data:
+mongoimport --db dbprojet --collection resource --type csv --file ./dataCsv/prices.csv --headerline
+
+Lire data:
+mongo
+> show dbs
+> use dbprojet
+> show collections

@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  - var theCustomers
+  - if (customer) { theCustomers = customer} else { theCustomers =  { title : '', author : '', year : '', cover : ''} }
+  h1 Create Customer
+  p Provide new customer
+  div
+    input#nameCustomer(placeholder="Entrez nom Client", value= theCustomers.title)
+    block customercontrol
+    block list
+  #result

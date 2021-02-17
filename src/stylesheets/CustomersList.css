@@ -1,0 +1,12 @@
+.customers-datas .customers-table {
+    max-width: 500px;
+}
+
+.customers-datas .customer-line:hover {
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.customers-datas .customer-line.active {
+    background-color:rgba(0, 0, 0, 0.2);
+}

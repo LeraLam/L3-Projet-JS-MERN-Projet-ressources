@@ -1,0 +1,28 @@
+.resource-page .card-root {
+    overflow: inherit;
+}
+
+.resource-price-container {
+    width: 275px;
+    text-align: center;
+}
+
+.resource-price-container + .resource-price-container {
+    margin-left: 10px;
+}
+
+.electricity-price .resource-title, .electricity-icon {
+    color: #f5ce46;
+}
+
+.water-price .resource-title, .water-icon {
+    color: #0098f7;
+}
+
+.gas-price .resource-title, .gas-icon {
+    color: #e04006;
+}
+
+.resources-chart {
+    overflow: auto;
+}
